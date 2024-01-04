@@ -30,6 +30,7 @@ import java.security.UnrecoverableKeyException;
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import javax.net.ssl.HostnameVerifier;
