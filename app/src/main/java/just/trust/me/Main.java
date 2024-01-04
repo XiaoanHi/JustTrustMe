@@ -111,7 +111,7 @@ public class Main implements IXposedHookLoadPackage {
         findAndHookMethod(X509TrustManagerExtensions.class, "checkServerTrusted", X509Certificate[].class, String.class, String.class, new XC_MethodReplacement() {
             @Override
             protected Object replaceHookedMethod(MethodHookParam param) throws Throwable {
-                return Arrays.asList ((X509Certificate[])param .args[0]);
+                return Arrays.asList((X509Certificate[])param .args[0]);
             }
         });
 
